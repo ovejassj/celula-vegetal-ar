@@ -1,0 +1,55 @@
+<model-viewer src="celula vegetal.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.029311054982411815m 0.028017999604344358m 0.04109700967723506m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cloroplasto:
+            Lleva a cabo la fotosintesis
+        </div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.04839762726429689m 0.02127899974584579m 0.022025952617762082m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Membrana plasmatica:
+            barrera semipermeable, regula entrada y salida de nutrientes y agua</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.01129010414594574m 0.01498345101037911m 0.05613956558548425m" data-normal="-0.16678551061697083m -2.1893447089079056e-16m 0.9859932015223211m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pared celular:
+            soporte estructural y forma, proteccion </div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.008443064123133823m 0.024983386348094747m 0.0469820434182558m" data-normal="0.022273594846787367m 3.635075455409336e-7m 0.9997519127125835m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Mitocondria:
+            respiracion celular(produccion de energia)</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-0.034348637667541516m 0.02274741658851247m 0.04096860961049225m" data-normal="0.3144584108349251m -0.1986172255535882m 0.9282602574540011m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ribosomas:
+            sintesis de proteinas </div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.029813332152415967m 0.023321999236941306m 0.01687819023186509m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Lisosomas</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-0.0293532184629358m 0.022505000233650194m 0.0044703627708056175m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">citoplasma:
+            soporte y suspension</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="-0.024035185879923204m 0.023262299846905664m -0.023616304059332734m" data-normal="-0.5916375389713875m 0.4549198571614982m -0.6655921769672792m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Microtubulos:
+            dirigir la division celular
+        </div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="0.005501526271630719m 0.025228999555110907m -0.016581093526766656m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Reticulo endoplasmatico rugoso:sintetizar,plegar y transportar proteinas</div>
+    </button><button class="Hotspot" slot="hotspot-13" data-position="0.025682830312556942m 0.034591673911314264m -0.014809867093713524m" data-normal="-0.04800702426880821m 0.9947419568735976m -0.09046416338053456m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">nucleo:
+            Almacenamiento y proteccion del ADN</div>
+    </button><button class="Hotspot" slot="hotspot-14" data-position="0.024485643652708m 0.02911609497387627m -0.008871790544747675m" data-normal="-0.21466837407426628m 0.5583873438155706m 0.8013245680989088m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Nucleolo:
+            Sintetiza el ARN ribosomico</div>
+    </button><button class="Hotspot" slot="hotspot-15" data-position="0.03573896343954263m 0.02522899955511093m 0.002999383475443337m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Reticulo endoplasmatico liso:
+            sintetiza lipidos</div>
+    </button><button class="Hotspot" slot="hotspot-16" data-position="0.039243772055858106m 0.025118480631249187m 0.015592915256008663m" data-normal="0.6093978030954543m 5.251153167399805e-8m 0.7928646275263079m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Aparato de golgi:
+            sintetiza polisácaridos complejos
+        </div>
+    </button><button class="Hotspot" slot="hotspot-17" data-position="0.003707915394353112m 0.029324000701308247m 0.019728735129914556m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Vacuola:
+            almacenamiento de agua, nutrientes </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
